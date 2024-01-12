@@ -83,7 +83,7 @@ nav li a {
 /* main styles  */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /* teams styles  */
 .teams-container{
@@ -95,7 +95,7 @@ main{
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
 }
-.team-content{
+.teams-content{
     padding: 0 70px;
 }
 .teams-title{
@@ -134,8 +134,18 @@ main{
     header{
         padding: 20px;
     }
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-title{
+        width: 100%;
+    }
+    .teams-content{
+        padding: 0 20px;
     }
 }
 
@@ -144,7 +154,8 @@ main{
     header{
         padding: 50px;
     }
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 }
