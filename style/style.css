@@ -120,8 +120,19 @@ main{
     line-height: 26px;
     margin-bottom: 32px;
 }
-
-
+/* facts section  */
+.facts{}
+.facts-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.fatch-description{
+    color: #727272;
+    width: 542px;
+    line-height: 26px;
+}
 
 
 
